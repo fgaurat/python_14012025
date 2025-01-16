@@ -1,10 +1,8 @@
-from Rectangle import RectangleSingletonDeco
+from Rectangle import Rectangle
 
 
 
-class Carre(RectangleSingletonDeco):
-    
-    
+class Carre(Rectangle):
 
     def __init__(self,cote=1):
 
